@@ -19,6 +19,6 @@ brew upgrade --cask ai-env-setup
 ## Maintainer flow
 
 1. Build app artifact (`.zip`) and get SHA256.
-2. Upload artifact to internal storage.
-3. Update `Casks/ai-env-setup.rb` with new version/url/sha256.
+2. Put zip into `Artifacts/`.
+3. Update `Casks/ai-env-setup.rb` with new version/sha256.
 4. Commit and push.
