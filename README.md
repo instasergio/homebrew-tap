@@ -5,15 +5,15 @@ Public Homebrew tap for AI Env Setup releases.
 ## Install
 
 ```bash
-brew tap instasergio/homebrew-ai-env-setup
-brew install --cask instasergio/homebrew-ai-env-setup/ai-env-setup
+brew tap instasergio/ai-env-setup
+brew install --cask instasergio/ai-env-setup/ai-env-setup
 ```
 
 ## Update
 
 ```bash
 brew update
-brew upgrade --cask instasergio/homebrew-ai-env-setup/ai-env-setup
+brew upgrade --cask instasergio/ai-env-setup/ai-env-setup
 ```
 
 ## Maintainer flow
