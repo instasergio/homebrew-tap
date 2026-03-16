@@ -1,8 +1,8 @@
 cask "ai-env-setup" do
-  version "1.0.47"
-  sha256 "75695455ec60adbfc4e45df0e601aa5b15cd3c2f2074a2e53748765f81f3ce0e"
+  version "1.0.53"
+  sha256 "9189c7f8bb126d635265f9e803436f2f007054e89b5ba735d0419dc71f275ecb"
 
-  url "https://github.com/instasergio/homebrew-tap/releases/download/build-1.0.47-23160949171-1/ai-env-setup-v1.0-build47.zip"
+  url "https://github.com/instasergio/homebrew-tap/releases/download/build-1.0.53-23171344829-1/ai-env-setup-v1.0-build53.zip"
   name "AI Env Setup"
   desc "Manage MCP, skills, commands, and model providers across AI clients"
   homepage "https://idp.yandex-team.ru/"
