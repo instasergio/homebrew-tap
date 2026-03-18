@@ -6,6 +6,9 @@ Public Homebrew tap for AI Env Setup and other packages.
 
 ```bash
 brew tap instasergio/tap
+# After tapping, a short form also works:
+brew install --cask ai-env-setup
+# Or explicit tap-qualified form:
 brew install --cask instasergio/tap/ai-env-setup
 ```
 
@@ -14,6 +17,16 @@ brew install --cask instasergio/tap/ai-env-setup
 ```bash
 brew update
 brew upgrade --cask instasergio/tap/ai-env-setup
+```
+
+## Uninstall
+
+```bash
+# Remove app bundle, keep user data/configs
+brew uninstall --cask ai-env-setup
+
+# Full reset: remove app-owned local data too (as defined in cask zap)
+brew uninstall --zap --cask ai-env-setup
 ```
 
 ## Maintainer flow

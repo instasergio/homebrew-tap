@@ -8,4 +8,13 @@ cask "ai-env-setup" do
   homepage "https://idp.yandex-team.ru/"
 
   app "ai-env-setup.app"
+
+  uninstall quit: "on.cloud.dev.ai-env-setup"
+
+  zap trash: [
+    "~/.config/ai-env-setup",
+    "~/.mcp_store",
+    "~/Library/Caches/on.cloud.dev.ai-env-setup",
+    "~/Library/Preferences/on.cloud.dev.ai-env-setup.plist",
+  ]
 end
