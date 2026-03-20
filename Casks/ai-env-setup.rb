@@ -1,20 +1,11 @@
 cask "ai-env-setup" do
-  version "1.0.64"
-  sha256 "7f738429c4df7bb6f4a2d52383d33249d0cbf98386b11a9887979d170a8f40b4"
+  version "1.0.74"
+  sha256 "731d15e6cf8067f0338cf6bd2a0fe098b4d938130307b8ccdfa35ce99b42babe"
 
-  url "https://github.com/instasergio/homebrew-tap/releases/download/build-1.0.64-23248312774-1/ai-env-setup-v1.0-build64.zip"
+  url "https://github.com/instasergio/homebrew-tap/releases/download/build-1.0.74-23338180355-1/ai-env-setup-v1.0-build74.zip"
   name "AI Env Setup"
   desc "Manage MCP, skills, commands, and model providers across AI clients"
   homepage "https://idp.yandex-team.ru/"
 
   app "ai-env-setup.app"
-
-  uninstall quit: "on.cloud.dev.ai-env-setup"
-
-  zap trash: [
-    "~/.config/ai-env-setup",
-    "~/.mcp_store",
-    "~/Library/Caches/on.cloud.dev.ai-env-setup",
-    "~/Library/Preferences/on.cloud.dev.ai-env-setup.plist",
-  ]
 end
