@@ -1,6 +1,6 @@
 cask "ai-env-setup" do
-  version "1.0.81"
-  sha256 "bc07c95b35215ba7e44737c90232ddd2d3ef6dac4478ca966d70ca44828a406c"
+  version "1.0.82"
+  sha256 "5353981969f2e9d4e73b1af0ab4268502695b02d96e439fe255eaa20b315c134"
 
   url "https://github.com/instasergio/homebrew-tap/releases/download/build-#{version}-local-1/ai-env-setup-v#{version.major_minor}-build#{version.patch}.zip",
       verified: "github.com/instasergio/homebrew-tap/"
