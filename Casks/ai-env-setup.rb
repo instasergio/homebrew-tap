@@ -1,8 +1,8 @@
 cask "ai-env-setup" do
-  version "1.0.89"
-  sha256 "102f43cbe4520d8dc8567c3b3199c50874cc05eb67a45ed2d872e539b241ff9f"
+  version "1.0.90"
+  sha256 "b8460ffdbd9cfa94c5122f30db7b922bbdaf686cab9e4ecead2a009e8233c214"
 
-  url "https://github.com/instasergio/homebrew-tap/releases/download/build-#{version}-24009848487-1/ai-env-setup-v#{version.major_minor}-build#{version.patch}.zip",
+  url "https://github.com/instasergio/homebrew-tap/releases/download/build-#{version}-24027336363-1/ai-env-setup-v#{version.major_minor}-build#{version.patch}.zip",
       verified: "github.com/instasergio/homebrew-tap/"
   name "AI Env Setup"
   desc "Manage MCP, skills, commands, and model providers across AI clients"
