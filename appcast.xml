@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>FullHouse</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 15 May 2026 11:23:58 +0000</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/fullhouse-v1.0-build108.zip" length="40064458" type="application/octet-stream" sparkle:edSignature="SEeHWuPcDMFBTyP188EMdeGhe5+Aab6B5mKs9hIBvqVpcpIyQ90ED4WrryK1JkHLv+HQtQghuPUaSW4ph78KBA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: vVRdxSBpfcn5zml77XBggnFBjGe6k4pnAFC3TQ8VujWqS9c8i/CK5wSq2YSKMsh1jvxfvVPKYabBCRt01iewAg==
+length: 1050
+-->
