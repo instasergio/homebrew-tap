@@ -4,15 +4,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FullHouse</title>
         <item>
-            <title>1.0</title>
-            <pubDate>Fri, 17 Jul 2026 07:39:49 +0000</pubDate>
-            <sparkle:version>128</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <title>2.0</title>
+            <pubDate>Tue, 21 Jul 2026 14:52:47 +0000</pubDate>
+            <sparkle:version>130</sparkle:version>
+            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-1.0.128-29540906245-2/fullhouse-v1.0-build128.zip" length="17727246" type="application/octet-stream" sparkle:edSignature="8jESiA4Zzcl2fH72VacR5Qia2QVKlJnEGLEyVlM21HsbQwgtovIvhnbbzM3HyNMxx5oC8iZPKSMylzUfx9SvAg=="></enclosure>
+            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-2.0.130-29839814994-1/fullhouse-v2.0-build130.zip" length="18038250" type="application/octet-stream" sparkle:edSignature="5JRqDeVXuWKmaf1DlSplSJzCERK6HVa3T5aucwRQzD76WsBUG3azHpXUs1ytYOHA4iF2RCpT41oo8GlFN7s9Ag=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zgksKQ+wOjtzVhgiAYgHlf2xKyLfFwZFQ5gRQGTePPRZhcYdcTvipDw8RosJxu55iojRrwjhQ5WT/s6XH5ynCw==
+edSignature: PoZV+uJ1ErXttifeOSYWtDg5XHiazeM3/Mb1YYyXoT6tEiaPfkGBTkC8JbjnA2iPFAsSVSDEXJe9Qj9amhHpBQ==
 length: 1078
 -->
