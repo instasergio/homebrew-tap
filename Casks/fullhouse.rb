@@ -1,8 +1,8 @@
 cask "fullhouse" do
-  version "2.8.140"
-  sha256 "e2c190c9ac052fd48a8946602104511a7ed20278f4cb5592b80ccad0eb9d3acc"
+  version "2.9.142"
+  sha256 "a0a91a0529de2f7d33efb946772ba6dc5777c068af9573a5a5e27ede55016898"
 
-  url "https://github.com/instasergio/homebrew-tap/releases/download/build-#{version}-33191431625-1/fullhouse-v#{version.major_minor}-build#{version.patch}.zip",
+  url "https://github.com/instasergio/homebrew-tap/releases/download/build-#{version}-33375064427-1/fullhouse-v#{version.major_minor}-build#{version.patch}.zip",
       verified: "github.com/instasergio/homebrew-tap/"
   name "FullHouse"
   desc "Manage MCP, skills, commands, and model providers across AI clients"

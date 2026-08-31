@@ -4,28 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FullHouse</title>
         <item>
-            <title>2.8</title>
-            <pubDate>Fri, 28 Aug 2026 17:07:53 +0000</pubDate>
-            <sparkle:version>140</sparkle:version>
-            <sparkle:shortVersionString>2.8</sparkle:shortVersionString>
+            <title>2.9</title>
+            <pubDate>Mon, 31 Aug 2026 09:10:23 +0000</pubDate>
+            <sparkle:version>142</sparkle:version>
+            <sparkle:shortVersionString>2.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Search public MCP registries</h2>
-<p>The Add MCP sheet gains a Registries source: search the official MCP registry, Smithery, and the Docker MCP Catalog, then stage a result as a regular custom MCP through the usual Queue → Apply flow.</p>
-<h3>New</h3>
-<ul>
-<li><strong>Add subagents from a registry</strong> — Subagents now have a full Add flow: browse a remote registry of ready-made agents by division, preview a definition, and roll it out with staged Apply instead of authoring files by hand.</li>
-<li><strong>Share your setup as a link</strong> — Publish a read-only showcase of your Global configuration as a static web page and hand teammates a link.</li>
-<li><strong>Agents can install Store MCPs via Hub</strong> — FullHouse Hub gains a write mode: agents plan and apply Yandex MCP Store installs as one guarded transaction, with the same preview and rollback rules as the app.</li>
-</ul>
+            <description><![CDATA[<h2>MCP descriptions write themselves</h2>
+<p>Store MCP descriptions are now drafted automatically right after you pick a server or change its tool scope — no Generate button to press and no progress to watch. Catalog descriptions stay as a fallback, and generated copy follows the app language.</p>
 <h3>Improved</h3>
 <ul>
-<li><strong>Fewer refreshes, steadier agents</strong> — The MCP Store catalog is discovered once per session and reused for 15 minutes, and Codex account capabilities re-export periodically, so long-running sessions no longer fail readiness checks.</li>
+<li><strong>Tool picker became a chip cloud</strong> — The Add MCP tool selector shows every known Store tool as one wrapping cloud of chips: toggle tools directly, spot the active selection at a glance, and read descriptions through hover help.</li>
+<li><strong>Added MCPs open in the shared inspector</strong> — Results already in your library open in the same inspector as the main MCP list, straight from the Add MCP sheet and without disturbing your selection or filters. Staged-only entries are labeled Queued, and installs still go through Preview → Apply.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><strong>Store access requests work reliably</strong> — Requesting MCP Store access is now dependable: the app prepares everything automatically, shows clear Request and Check progress, and keeps the request pending until access is actually granted. Server details stay hidden until access is confirmed.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-2.8.140-33191431625-1/fullhouse-v2.8-build140.zip" length="22369097" type="application/octet-stream" sparkle:edSignature="i/ulZqyuihRF6s4qwbSnUq5AqLWgVYeF8Dhujzcqq/T8n+3ue3jbSycl1/sAUldrXw48puhqmsvQQubndn0tCQ=="></enclosure>
+            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-2.9.142-33375064427-1/fullhouse-v2.9-build142.zip" length="22397379" type="application/octet-stream" sparkle:edSignature="Pi2rZTZ9BVBHhqCxjFtgHqC9ES7GF7GIYPzMtoGLwNOkHXrxrxEsCoLmPrmCTIrKs2xhED5VlNLA76F7yvAOCg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: SMSZLwIXTme+zHKZUkI0YYJa4c5x0KiYI7rhXqxhjjXwRyNtA5g0Y7Uy1W1tH7e0N/ltkU7aqXlrKcPeWZPLBg==
-length: 2326
+edSignature: 8VIfgY58sW47cdLsZt1H9xmQEndNeGi1s2DtZ3glbtRxhlvvtWEzNlDdfnaEJGwhnVz80oddWgaIJS2ZbzScDA==
+length: 2376
 -->
