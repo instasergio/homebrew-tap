@@ -4,27 +4,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FullHouse</title>
         <item>
-            <title>2.9</title>
-            <pubDate>Mon, 31 Aug 2026 09:10:23 +0000</pubDate>
-            <sparkle:version>142</sparkle:version>
-            <sparkle:shortVersionString>2.9</sparkle:shortVersionString>
+            <title>2.10</title>
+            <pubDate>Wed, 02 Sep 2026 12:05:46 +0000</pubDate>
+            <sparkle:version>143</sparkle:version>
+            <sparkle:shortVersionString>2.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MCP descriptions write themselves</h2>
-<p>Store MCP descriptions are now drafted automatically right after you pick a server or change its tool scope — no Generate button to press and no progress to watch. Catalog descriptions stay as a fallback, and generated copy follows the app language.</p>
+            <description><![CDATA[<h2>Select several MCPs at once</h2>
+<p>The MCP list now supports standard Mac multi-selection: ⌘-click toggles rows, ⇧-click extends a range, ⌘A selects everything visible. The inspector shows one tool grid for the whole selection — a click enables or disables a tool for every selected server that allows it — and the selection can be removed behind a single confirmation. All changes still go through Preview → Apply.</p>
+<h2>Test in chat works in steps</h2>
+<p>Each message in the MCP test chat now runs a small loop: the assistant sees the conversation and the results and errors of the turn so far, gets a chance to correct a failed call, and can chain up to four tool calls before answering from real results. Run / Skip confirmations for mutating calls stay in place.</p>
 <h3>Improved</h3>
 <ul>
-<li><strong>Tool picker became a chip cloud</strong> — The Add MCP tool selector shows every known Store tool as one wrapping cloud of chips: toggle tools directly, spot the active selection at a glance, and read descriptions through hover help.</li>
-<li><strong>Added MCPs open in the shared inspector</strong> — Results already in your library open in the same inspector as the main MCP list, straight from the Add MCP sheet and without disturbing your selection or filters. Staged-only entries are labeled Queued, and installs still go through Preview → Apply.</li>
+<li><strong>Add MCP search is ranked by relevance</strong> — With a query, the Featured tab shows one Results list ranked by name, then identifier, server title, summary, and tool metadata, so an exact name match no longer sinks below servers that merely mention the term in a tool description. Kind badges keep the Preset / Preconfigured / Manual setup grouping visible.</li>
+<li><strong>Tokens right in the Add sheet</strong> — Manual Store setup promotes required tokens — environment values and headers — into labeled secure fields above the key/value editor, prefilled from the app's token storage when available. Adding a managed MCP that needs a token is now: pick a mode, paste the token, stage.</li>
+<li><strong>Inspector status stays live</strong> — The inspector quietly re-checks an MCP's health when it shows it: a failed early check — for example one taken before the network was up — is retried after a short grace period the next time the row is opened, instead of pinning Not available for the whole cache window, and the tool list reloads on its own once a re-check finds the server reachable again.</li>
 </ul>
 <h3>Fixed</h3>
 <ul>
-<li><strong>Store access requests work reliably</strong> — Requesting MCP Store access is now dependable: the app prepares everything automatically, shows clear Request and Check progress, and keeps the request pending until access is actually granted. Server details stay hidden until access is confirmed.</li>
+<li><strong>Integer arguments reach servers intact</strong> — Test in chat no longer turns JSON 0 and 1 into true and false when calling a tool, so servers that expect integers stop rejecting the call with a type error.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-2.9.142-33375064427-1/fullhouse-v2.9-build142.zip" length="22397379" type="application/octet-stream" sparkle:edSignature="Pi2rZTZ9BVBHhqCxjFtgHqC9ES7GF7GIYPzMtoGLwNOkHXrxrxEsCoLmPrmCTIrKs2xhED5VlNLA76F7yvAOCg=="></enclosure>
+            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-2.10.143-33618460185-2/fullhouse-v2.10-build143.zip" length="22557957" type="application/octet-stream" sparkle:edSignature="UtifLRhmceyH4K5jM6H94J40YNV01chYhtB6xj+JrsB8+WCc4raxSNwr1Z089L/tmS+2dKNp3F+coKCEL7WoAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8VIfgY58sW47cdLsZt1H9xmQEndNeGi1s2DtZ3glbtRxhlvvtWEzNlDdfnaEJGwhnVz80oddWgaIJS2ZbzScDA==
-length: 2376
+edSignature: ExfB0VotTgCDn4Og64F6kwzj0gq2jwF1Us/Ew6sguALpV+JAF17ih/XyQvI5rkZ4uUHwx2W3gT8CNxrkwNmsAQ==
+length: 3345
 -->
