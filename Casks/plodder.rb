@@ -1,16 +1,16 @@
 cask "plodder" do
-  version "1.0.28"
+  version "1.0,28"
   sha256 "1ed22cd7c481ad60630fbfcf702a6a527b0b9036307a9b894ce8f13326c072de"
 
-  url "https://github.com/instasergio/homebrew-tap/releases/download/plodder-build-1.0.28-local-20260902114439/PlodderApp-v1.0-build28.zip",
-      verified: "github.com/instasergio/homebrew-tap/"
+  url "https://github.com/instasergio/homebrew-tap/releases/download/plodder-build-#{version.before_comma}.#{version.after_comma}-local-20260902114439/PlodderApp-v#{version.before_comma}-build#{version.after_comma}.zip"
   name "Plodder"
   desc "Local work dispatcher across Tracker, Arcanum, git worktrees and CI"
   homepage "https://github.com/PlodderHouse/plodder"
   auto_updates true
 
-  # LSMinimumSystemVersion 26.0 in the bundle.
-  depends_on macos: ">= :tahoe"
+  # LSMinimumSystemVersion 26.0 in the bundle; the
+  # bare symbol means "this release or newer".
+  depends_on macos: :tahoe
 
   app "PlodderApp.app"
   binary "#{appdir}/PlodderApp.app/Contents/MacOS/plodder", target: "plodder"
