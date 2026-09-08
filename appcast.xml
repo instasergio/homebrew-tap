@@ -4,22 +4,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FullHouse</title>
         <item>
-            <title>2.11</title>
-            <pubDate>Mon, 07 Sep 2026 12:12:43 +0000</pubDate>
-            <sparkle:version>144</sparkle:version>
-            <sparkle:shortVersionString>2.11</sparkle:shortVersionString>
+            <title>2.12</title>
+            <pubDate>Tue, 08 Sep 2026 11:03:37 +0000</pubDate>
+            <sparkle:version>145</sparkle:version>
+            <sparkle:shortVersionString>2.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Reliable Arcanum and Tracker MCP installation</h2>
-<p>Arcanum and Tracker MCPs now download independently of the app. FullHouse checks each release before installation and shows when release information is unavailable. Downloads and updates go through Review → Apply.</p>
+            <description><![CDATA[<h2>Add MCPs from a GitHub link</h2>
+<p>Paste a repository link in Add MCP. FullHouse checks whether its npm package is a matching MCP server, pins the package version, and prepares a configuration to review. Changes to your tools still go through Queue → Review → Apply.</p>
 <h3>New</h3>
 <ul>
-<li><strong>Publish Arcanum pull requests</strong> — The latest Arcanum MCP release adds publish_pr in read-write mode, so connected assistants can publish prepared pull requests when you ask them to.</li>
+<li><strong>Ask local Codex about other MCP setups</strong> — When direct npm import is unavailable, you can ask local Codex to inspect a snapshot of the repository's documentation and manifests without running its code. FullHouse validates supported PyPI, Docker, and HTTPS proposals before letting you queue them. Source builds and unsupported commands remain manual setup.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-2.11.144-34119196565-1/fullhouse-v2.11-build144.zip" length="22602210" type="application/octet-stream" sparkle:edSignature="Wf4eal5yFt1VGoMnq0esFRFJk0gjPMYZQouZprCf4hwIhFQzSfVEFErBghXp13DQNihj+G9xpBxrFENbevGJBQ=="></enclosure>
+            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/build-2.12.145-34217344748-1/fullhouse-v2.12-build145.zip" length="23053478" type="application/octet-stream" sparkle:edSignature="8cAfMDcqpeWywXuSPqZOU4WC440vX+DaC/0QGF26dNwdLyGSEpvY1ws0PE10w2H4VmqAU7LONazMDN9iLA8jCg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 9ZKbgTZEJsbwUXefJoKipK2ZtTlR+rjaGdB4HNXqfHv+9A/vT7bVIqIfKYjYdCI4uTRaN/O2iUK6J+oi6D9qAQ==
-length: 1644
+edSignature: kyiI+NXD13mmt0/Sr3nYYk2qj1kP+F9xHiyBYRS4NC+WzpD1QGNkkfbsHpLn2AVC9XXVMBm6yuXPziG+ic50DA==
+length: 1821
 -->
