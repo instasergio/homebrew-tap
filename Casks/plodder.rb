@@ -1,8 +1,8 @@
 cask "plodder" do
-  version "1.0,28"
-  sha256 "1ed22cd7c481ad60630fbfcf702a6a527b0b9036307a9b894ce8f13326c072de"
+  version "1.0,29"
+  sha256 "18bd614c4fb4ee071ace52d079c327bf577f25827720f809c71a2dfb67fa9720"
 
-  url "https://github.com/instasergio/homebrew-tap/releases/download/plodder-build-#{version.before_comma}.#{version.after_comma}-local-20260902114439/PlodderApp-v#{version.before_comma}-build#{version.after_comma}.zip"
+  url "https://github.com/instasergio/homebrew-tap/releases/download/plodder-build-#{version.before_comma}.#{version.after_comma}-local-20260909082334/PlodderApp-v#{version.before_comma}-build#{version.after_comma}.zip"
   name "Plodder"
   desc "Local work dispatcher across Tracker, Arcanum, git worktrees and CI"
   homepage "https://github.com/PlodderHouse/plodder"
@@ -17,8 +17,9 @@ cask "plodder" do
 
   uninstall quit: "on.cloud.dev.plodder"
 
-  # The background CI watcher is a per-user LaunchAgent the app installs on
-  # request; it survives an upgrade and goes only with an explicit zap.
+  # Releases before September 2026 installed a per-user LaunchAgent for the
+  # CI watcher. The app retires it at launch; the zap covers a user who
+  # uninstalls without ever reopening the app.
   zap launchctl: "on.cloud.dev.plodder.ci-watch",
       trash:     [
         "~/.config/plodder",

@@ -5,16 +5,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>PlodderApp</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 02 Sep 2026 14:44:53 +0300</pubDate>
+            <pubDate>Wed, 09 Sep 2026 11:23:56 +0300</pubDate>
             <link>https://github.com/instasergio/homebrew-tap</link>
-            <sparkle:version>28</sparkle:version>
+            <sparkle:version>29</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/plodder-build-1.0.28-local-20260902114439/PlodderApp-v1.0-build28.zip" length="6150810" type="application/octet-stream" sparkle:edSignature="OfpU9bNcAXntIm2LRfqpp255U6BKAzUD4lUQIZUZ8TLK8ANjZROUhifCvuX0d0IbN2D8rNgXmvRLkPKO79HqCw=="></enclosure>
+            <enclosure url="https://github.com/instasergio/homebrew-tap/releases/download/plodder-build-1.0.29-local-20260909082334/PlodderApp-v1.0-build29.zip" length="7736663" type="application/octet-stream" sparkle:edSignature="wX/Dg6gOLYQKglk4TrAnMLe67x/lTyBhw98GqxKKaqFWQxAt0flzLi0Q1HlNHNA/HDQLin7n3OHBXhf8U2glBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 6qLcwi/2+Naxqokfra0E9RKd6Y/5b8SobUrc7YIs53G3/WRvVBGnuhqgHgJh+ee6eMVN+g+MJUQeWijZReeZAA==
+edSignature: 7AbuQKsjcmTaJMjfrt2NMfstb37MTCms6h67X6dj2T0Kxxf6Rb8VsV4dt8Aq9dn0sAdJE9XJCdqC9C6VtLzXCA==
 length: 1239
 -->
