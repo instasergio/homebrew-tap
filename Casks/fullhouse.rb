@@ -7,6 +7,7 @@ cask "fullhouse" do
   desc "Manage MCP, skills, commands, and model providers across AI clients"
   homepage "https://idp.yandex-team.ru/"
   auto_updates true
+  depends_on arch: :arm64
 
   app "FullHouse.app"
   binary "#{appdir}/FullHouse.app/Contents/Helpers/fh", target: "fh"
