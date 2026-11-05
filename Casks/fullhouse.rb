@@ -1,11 +1,11 @@
 cask "fullhouse" do
-  version "2.17.165"
-  sha256 "fea5e2f5d01745fe2a63c02b63d6a63e631cc29eb86e0e0b24502f50d7b639ee"
+  version "2.18.166"
+  sha256 "dba29e0e5ecfb84314a3a8e2d96b2af255ff701e71874864536f7f7527eb635f"
 
-  url "https://github.com/instasergio/homebrew-tap/releases/download/build-#{version}-41457932523-1/fullhouse-v#{version.major_minor}-build#{version.patch}.zip"
+  url "https://github.com/instasergio/homebrew-tap/releases/download/build-#{version}-42107514331-1/fullhouse-v#{version.major_minor}-build#{version.patch}.zip"
   name "FullHouse"
   desc "Manage MCP, skills, commands, and model providers across AI clients"
-  homepage "https://idp.yandex-team.ru/"
+  homepage "https://github.com/PlodderHouse/fullhouse"
   auto_updates true
   depends_on arch: :arm64
 
